@@ -1,0 +1,10 @@
+docker attach <continer_id>
+----> will open the container bash/bin 
+
+
+
+docker cp D:\data.txt 2f84c84672df6f2cd5d46dfb73b472d601770d64d6eee49c221905e4799855be:/sample.txt
+----> this copy a file from the specified path from local to the container 
+
+
+
