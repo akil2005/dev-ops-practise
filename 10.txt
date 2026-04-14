@@ -1,0 +1,15 @@
+Dir
+---> give the files in the directory
+
+docker rename Dockerfile.txt Dockerfile
+----> for renaming
+
+Dir
+
+docker build -t custum-nginx:v1
+----> used to build a custom docker image
+----> -t is for test
+
+docker run -d -p 8080:80 --name nginx-container custom-nginx:v1
+----> creating a container using custom image
+
