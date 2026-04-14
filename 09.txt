@@ -1,0 +1,15 @@
+docker run -d --name nginx_app -e ENV_MODE=production nginx
+
+PS C:\Users\gokul> docker exec -it 9130c78496e1d3167409de3a77e2878e8f8c31e1bf736a59c41fad5aa09d50fc bash
+root@9130c78496e1:/# echo $ENV_MODE
+production
+
+
+----------------------------------------------------X---------------------------------------------X-----------------------------------------
+
+docker start 42c8d32366aa60d24b7021d459782a4dfaf2493ef42d08538a2a3f59fceaa84c
+docker stop 42c8d32366aa60d24b7021d459782a4dfaf2493ef42d08538a2a3f59fceaa84c
+
+----------------------------------------------------X---------------------------------------------X---------------------------------
+
+
