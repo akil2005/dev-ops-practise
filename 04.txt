@@ -1,0 +1,41 @@
+docker run -dit --name <container_name>  <image_name> 
+--> it will create a new container and run that here -d means detached mode. 
+
+
+docker start <container_id> 
+--> to run the existing container
+
+
+docker logs <container_id> 
+---> Shows output printed by the container.
+
+
+docker inspect <container_id> 
+--->Gives detailed configuration & metadata of a container (or image)
+
+docker stats <container_id> 
+-->gives the cpu usage and storage details
+
+docker top <container_id> 
+--->gives the process that are running in the container
+
+
+
+docker network ls 
+---> list the network used by the docker
+
+docker network create <network_name> 
+--->create a new network
+
+docker network rm <network_name> 
+---> removes the  existing network
+
+docker stop $(docker ps -aq) 
+---> stops all container 
+
+docker rm $(docker ps -aq) 
+---> removes all container
+
+docker rmi $(docker images -aq) 
+---> removes all pulled or existing images
+
